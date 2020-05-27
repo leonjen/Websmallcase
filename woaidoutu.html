@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>我爱斗图</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.floatfix{
+
+		}
+		a{
+			text-decoration: none;
+		}
+		body{
+			font: 14px Helvetica Neue, Helvetica, PingFang SC, 微软雅黑, Tahoma, Arial, sans-serif;
+			font-family: logo, Helvetica Neue, Helvetica, PingFang SC, 微软雅黑, Tahoma, Arial, sans-serif;
+			/*字母间距*/
+			letter-spacing: .1px;
+			color: #666666;
+		}
+		.w{
+			width: 1170px;
+			margin: 0 auto;
+			padding: 0 15px;
+
+		}
+		.titlel{
+			height: 42px;
+			box-shadow: 0 0 5px 0 rgba(0,0,0,.43);
+			position: absolute;
+			top: 0;
+			width: 100%;
+			background-color: rgba(255, 255, 255, 0.88);
+		}
+		.titlenav{
+			/*float: left;*/
+			height: 42px;
+
+		}
+		.titlenav #logo{
+			display: block;
+			/*width: auto;*/
+			height: 100%;
+			float: left;
+			background: url(notice-logo.png) no-repeat;
+			text-decoration: none;
+			background-size: 45px 32px;
+			padding-left: 50px;
+			color: #505050;
+			line-height: 42px;
+			font-size: 21px;
+			background-position: 2px 5px;
+			text-shadow: 2px 2px 1px #eee;
+			letter-spacing: 0.03em;
+		}
+		@font-face {
+			font-family: "logo";
+			src: url(https://at.alicdn.com/t/webfont_jxt60938l1.woff2);
+			font-display: swap;
+		}
+		.top-right-menu{
+			float: right;
+			height: 42px;
+		}
+		.top-right-menu .menu li {
+			list-style: none;
+			float: right;
+			height: 100%;
+
+		}
+		.top-right-menu .menu li a{
+			display: block;
+			height: 42px;
+			line-height: 42px;
+			padding: 0 15px;
+			color: #000;
+			font-size: 14px;
+			transition: .3s ease all;
+		}
+		.top-right-menu .menu li a:hover{
+			color: #C24246;
+		}
+		.top-navi-search-btn{
+			display: block;
+			float: right;
+			line-height: 42px;
+			font-size: 14px;
+
+		}
+		#index-banner{
+			height: 330px;
+		}
+		.top-banner{
+			background: url(6.jpg);
+/*			-webkit-background-size: 280%;
+			background-size: 280%;*/
+			animation: bg-move 60s linear infinite;
+
+		}
+		@-webkit-keyframes bg-move { 
+			0% { background-position: 0 0; }
+			100% { background-position: 1316px -1240px; }
+		}
+		@-moz-keyframes bg-move { 
+			0% { background-position: 0 0; }
+			100% { background-position: 1316px -1240px; }
+		}
+		@keyframes bg-move { 
+			0% { background-position: 0 0; }
+			100% { background-position: 1316px -1240px; }
+		}
+	</style>
+</head>
+<body>
+	<div class="titlel">
+		<div class="titlenav w">
+			<a id="logo" href="">我爱斗图</a>
+			<a class="top-navi-search-btn" href=""><i></i></a>
+			<div class="top-right-menu">
+				<ul class="menu">
+					<li class="menu-item"><a href="">反馈</a></li>
+					<li class="menu-item"><a href="">工具</a></li>
+					<li class="menu-item"><a href="">投稿</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<section class="top-banner" id="index-banner">
+		
+	</section>
+</body>
+</html>
