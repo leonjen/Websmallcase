@@ -36,6 +36,9 @@
 			margin: 0 0 14px 14px;
 			/*padding不设置高度 就不会扩大盒子 */
 			padding: 20px 0;
+			/*transition-property all 所有的transform属性*/
+			/*transition-duration  .2s 持续时间*/
+			/*transition-timing-function linear 线性方法*/
 			transition: all .2s linear;
 		}
 		.rminshows div a{
@@ -68,7 +71,9 @@
 		}
 		/*浮动效果*/
 		.rminshows div:hover{
+			/*          x  y   模糊程度  颜色  */
 			box-shadow: 0 15px 30px rgba(0,0,0,.1);
+			/*三个数值分别是 x y z 轴*/
 			transform: translate3d(0,-2px,0);
 		}
 
