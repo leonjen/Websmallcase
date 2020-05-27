@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>新闻列表</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		li{
+			list-style: none;
+		}
+		.box{
+			width: 298px;
+			height: 198px;
+			border: 1px solid #ccc;
+			margin: 100px auto;
+			background-color: #fff;
+		}
+		.box .gridient{
+			height: 50%;
+			background: linear-gradient(180deg,#EFF2EF,#fff);
+			padding: 15px;
+		}
+		.box .gridient h2{
+			/*注意分号结尾*/
+			font-size: 18px;
+			border-bottom:1px solid #ccc;
+			padding: 5px 0 ;
+		}
+		.box .gridient ul{
+			padding-top: 5px
+		}
+		.box .gridient li{
+			height: 24px;
+			border-bottom: 1px dashed #ccc;
+			padding-top: 2px
+		}
+		.box ul li a{
+			color: #333;
+			font-size: 12px;
+			text-decoration: none;
+		}
+		.box ul li a:hover{
+			text-decoration: underline;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="gridient"><h2>最新文章/New Articles</h2>
+			<ul>
+				<li><a href="#">北京招聘网页设计，平面设计</a></li>
+				<li><a href="#">体验JavaScript的魅力</a></li>
+				<li><a href="#">jquery世界即将来临</a></li>
+				<li><a href="#">网页设计师的梦想</a></li>
+				<li><a href="#">jquery中的链式编程是什么</a></li>
+			</ul>
+		</div>
+		<div class="title"></div>
+		<div class="content"></div>
+	</div>
+</body>
+</html>
